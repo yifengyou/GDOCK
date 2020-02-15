@@ -1,4 +1,4 @@
-echo '修改机器名称'
+#echo '修改机器名称'
 sed -i 's/OpenWrt/G-DOCK/g' package/base-files/files/bin/config_generate
 
 #echo '修改网关地址'
